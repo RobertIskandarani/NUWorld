@@ -1,5 +1,6 @@
 import React from 'react';
 import './../styles/Footer.css';
+import FooterTop from './../assets/bg_body_top.webp';
 import Logo from './generics/Logo';
 import Icon from './generics/Icons-list';
 import IconJson from '../data/icons.json';
@@ -11,7 +12,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-top">
-                <img className="footer-top-img" src="https://i.ibb.co/99CLKSq/bg-body-top.webp" alt="footerTop" />
+                <img className="footer-top-img" src={FooterTop} alt="footerTop" />
             </div>
             <div className="footer-section">
                 <div className="logo-footer">

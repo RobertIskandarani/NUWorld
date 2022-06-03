@@ -88,7 +88,6 @@ const Header = ({ video }) => {
                 </div>
             </div>
             <ReactPlayer
-                // url={video}
                 url="https://vimeo.com/716537930"
                 width="100%"
                 height="100%"

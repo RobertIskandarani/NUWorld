@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Professor from './../../assets/Dr Professor para FAQ.webp';
+import Nekevah from './../../assets/Nekevah para FAQ.webp';
+import LogoNU from './../../assets/Isotipo NuWorld Blanco.webp';
 import FaqsPros from './Faq_pros';
 import FaqsNewbies from './Faq_newbies';
 import '../../styles/Faqs/Faqs_desktop.css';
@@ -12,34 +15,22 @@ const FaqsDesktop = () => {
                 <div className="faqs-desktop-title">
                     <p>FREQUENTLY ASKED QUESTIONS</p>
                 </div>
-                <img
-                    className="faqs-background"
-                    src="https://i.ibb.co/4V9wFf3/Isotipo-Nu-World-Blanco.webp"
-                    alt="FaqsNU"
-                />
+                <img className="faqs-background" src={LogoNU} alt="FaqsNU" />
                 <div className="faqs-banner">
                     <div className="faqs-character" onClick={() => setFor('newbies')}>
                         <div className={'faqs-professor-principal-' + faqs_for}>
-                            <p className={'faqs-title-proffesor-' + faqs_for}>FOR NEWBIES</p>
-                            <img
-                                className="faqs-proffesor-img"
-                                src="https://i.ibb.co/JBMFm4x/Dr-Professor-para-FAQ.webp"
-                                alt="Proffesor"
-                            />
+                            <p className={'faqs-title-professor-' + faqs_for}>FOR NEWBIES</p>
+                            <img className="faqs-professor-img" src={Professor} alt="Professor" />
                         </div>
-                        <div className={'faqs-name-proffesor-' + faqs_for}>
+                        <div className={'faqs-name-professor-' + faqs_for}>
                             <p className="faqs-name">Dr. Professor</p>
                         </div>
-                        <div className={'rectangle-proffesor-' + faqs_for}></div>
+                        <div className={'rectangle-professor-' + faqs_for}></div>
                     </div>
                     <div className="faqs-character" onClick={() => setFor('pros')}>
                         <div className={'faqs-nekevah-principal-' + faqs_for}>
                             <p className={'faqs-title-nekevah-' + faqs_for}>FOR PROS</p>
-                            <img
-                                className="faqs-nekevah-img"
-                                src="https://i.ibb.co/rfXH8DT/Nekevah-para-FAQ.webp"
-                                alt="Nekevah"
-                            />
+                            <img className="faqs-nekevah-img" src={Nekevah} alt="Nekevah" />
                         </div>
                         <div className={'faqs-name-nekevah-' + faqs_for}>
                             <p className="faqs-name">Cap. Nekevah</p>

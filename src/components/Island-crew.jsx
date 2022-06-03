@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import BannerDesktop from './../assets/Banner Secundario Definitivo - Optimizado.jpg';
+import BannerMobile from './../assets/Banner Secundario para Web Mobile op.1.jpg';
 import './../styles/Island-crew.css';
 import useAnalyticsEventTracker from '../ga';
 
@@ -21,11 +23,7 @@ const IslandCrew = () => {
         <div id="island-crew" className="island">
             <img
                 className="island-banner"
-                src={
-                    width <= 768
-                        ? 'https://i.ibb.co/rm1VmPS/Banner-Secundario-para-Web-Mobile-op-1.jpg'
-                        : 'https://i.ibb.co/njPrKPT/Banner-Secundario-Definitivo-Optimizado.jpg'
-                }
+                src={width <= 768 ? BannerMobile : BannerDesktop}
                 alt="BannerSecundario"
             />
             <div className="join-discord">

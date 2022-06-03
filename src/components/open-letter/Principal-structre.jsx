@@ -2,6 +2,7 @@ import React from 'react';
 import './../../styles/open-letter/Principal-structre.css';
 import IconJson from '../../data/icons.json';
 import Icon from '../generics/Icons-list';
+import Nekevah from './../../assets/Nekevha con Triangulo Optimizada.png';
 import useAnalyticsEventTracker from '../../ga';
 
 const PrincipalStructre = () => {
@@ -10,11 +11,7 @@ const PrincipalStructre = () => {
     return (
         <div className="structre-description">
             <div className="nekevah">
-                <img
-                    className="structre-img"
-                    src="https://i.ibb.co/MNV6Gqj/Nekevha-con-Triangulo-Optimizada.png"
-                    alt="Nekevah"
-                />
+                <img className="structre-img" src={Nekevah} alt="Nekevah" />
                 <div className="nekevah-icons">
                     {openLetter.map(i => {
                         return (

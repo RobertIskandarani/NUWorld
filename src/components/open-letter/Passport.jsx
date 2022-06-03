@@ -1,4 +1,5 @@
 import React from 'react';
+import PassportImg from './../../assets/Passport.webp';
 import './../../styles/open-letter/Passport.css';
 
 const Passport = () => {
@@ -15,11 +16,7 @@ const Passport = () => {
                     </p>
                 </div>
                 <div className="voluntarios-passport">
-                    <img
-                        className="passport-img"
-                        src="https://i.ibb.co/DDbP6Gv/Passport.webp"
-                        alt="Passport"
-                    />
+                    <img className="passport-img" src={PassportImg} alt="Passport" />
                 </div>
             </div>
         </div>

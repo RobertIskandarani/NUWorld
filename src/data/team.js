@@ -1,7 +1,7 @@
 const team = [
     {
         id: 0,
-        img: 'https://i.ibb.co/KxS2jTX/1-Pablo.jpg',
+        img: require('../assets/Team/1- Pablo.jpg'),
         name: 'Pablo Lowenstein',
         role: 'Business Mason',
         description:
@@ -10,7 +10,7 @@ const team = [
     },
     {
         id: 1,
-        img: 'https://i.ibb.co/DkPWkmF/2-Gus.jpg',
+        img: require('../assets/Team/2- Gus.jpg'),
         name: 'Gustavo Szlukier',
         role: 'Treasurer & Negotiator',
         description:
@@ -19,7 +19,7 @@ const team = [
     },
     {
         id: 2,
-        img: 'https://i.ibb.co/fQ3nxbT/3-Demi.jpg',
+        img: require('../assets/Team/3- Demi.jpg'),
         name: 'Demian Goldberg',
         role: 'Cybersecurity GrandMaster',
         description:
@@ -28,7 +28,7 @@ const team = [
     },
     {
         id: 3,
-        img: 'https://i.ibb.co/58b56w6/4-Nico.jpg',
+        img: require('../assets/Team/4- Nico.jpg'),
         name: 'Nicolás Ruda',
         role: "DA'BOSS",
         description:
@@ -37,7 +37,7 @@ const team = [
     },
     {
         id: 4,
-        img: 'https://i.ibb.co/7r6T8KL/5-Juan.jpg',
+        img: require('../assets/Team/5- Juan.jpg'),
         name: 'Juan Francisco Fiz',
         role: '3D Artisan',
         description:
@@ -46,7 +46,7 @@ const team = [
     },
     {
         id: 5,
-        img: 'https://i.ibb.co/mCv0tX3/6-Fede.jpg',
+        img: require('../assets/Team/6- Fede.jpg'),
         name: 'Federico Jabbaz',
         role: 'Chief Troublemaking Officer',
         description:
@@ -55,7 +55,7 @@ const team = [
     },
     {
         id: 6,
-        img: 'https://i.ibb.co/PM6b0KR/7-Oli.jpg',
+        img: require('../assets/Team/7- Oli.jpg'),
         name: 'Oliver Krause',
         role: 'Dictator of taste',
         description:
@@ -64,7 +64,7 @@ const team = [
     },
     {
         id: 7,
-        img: 'https://i.ibb.co/qN8pNFm/8-Mati.jpg',
+        img: require('../assets/Team/8- Mati.jpg'),
         name: 'Matias Goldberg',
         role: 'Back-end Trooper',
         description:
@@ -73,7 +73,7 @@ const team = [
     },
     {
         id: 8,
-        img: 'https://i.ibb.co/LP5bRss/9-Toby.jpg',
+        img: require('../assets/Team/9- Toby.jpg'),
         name: 'Tobías Akselrad',
         role: 'Hybrid Officer',
         description:
@@ -82,7 +82,7 @@ const team = [
     },
     {
         id: 9,
-        img: 'https://i.ibb.co/hg5vngg/10-Robert.jpg',
+        img: require('../assets/Team/10- Robert.jpg'),
         name: 'Robert Iskandarani',
         role: 'Front-line Knight',
         description:
