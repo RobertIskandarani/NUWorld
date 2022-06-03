@@ -1,0 +1,38 @@
+.open-letter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://i.ibb.co/0G7HQqb/header-bg.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 769px) {
+    .open-letter-title {
+        width: 80%;
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 3.90625vw;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .open-letter-title {
+        width: 80%;
+        color: white;
+        font-family: 'Progress-Personal-Use';
+        font-size: 8.52575vw;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        padding: 0;
+    }
+}

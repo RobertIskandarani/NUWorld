@@ -1,0 +1,84 @@
+.island {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+    .island-banner {
+        margin-top: 0;
+        margin-bottom: -7%;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .join-discord {
+        height: 100%;
+        width: 20%;
+        margin-bottom: 3.2%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .discord-button {
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-radius: 20px;
+        background-color: #45bee7;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1.40625vw;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .island-banner {
+        margin-top: 0;
+        margin-bottom: -15%;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .join-discord {
+        height: 100%;
+        width: 50%;
+        margin-bottom: 11.2%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .discord-button {
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-radius: 20px;
+        background-color: #45bee7;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 4.79575vw;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.discord-button:hover {
+    background-color: #1d5468;
+}
