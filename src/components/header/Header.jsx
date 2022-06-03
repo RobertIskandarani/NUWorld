@@ -90,7 +90,7 @@ const Header = ({ video }) => {
             <ReactPlayer
                 // url={video}
                 url="https://vimeo.com/716537930"
-                width="150%"
+                width="100%"
                 height="100%"
                 playing
                 loop
