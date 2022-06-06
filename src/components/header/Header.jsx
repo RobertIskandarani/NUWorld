@@ -7,7 +7,6 @@ import Icon from '../generics/Icons-list';
 import sectionButtons from '../../data/sections.json';
 import useAnalyticsEventTracker from '../../ga';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import ReactPlayer from 'react-player';
 
 const Header = ({ video }) => {
     const discordTracker = useAnalyticsEventTracker('HEADER');
@@ -87,14 +86,6 @@ const Header = ({ video }) => {
                     </div>
                 </div>
             </div>
-            <ReactPlayer
-                url="https://vimeo.com/716537930"
-                width="100%"
-                height="100%"
-                playing
-                loop
-                muted
-            />
         </header>
     );
 };
