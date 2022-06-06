@@ -66,9 +66,7 @@ const Roadmap = () => {
                                             }, 1500)
                                         }
                                     >
-                                        {currentSection === 'island-crew'
-                                            ? 'Skip RoadMap'
-                                            : 'Go to Previous Section'}
+                                        {currentSection === 'island-crew' ? 'Skip' : 'Previous'}
                                     </Link>
                                 </div>
                             </div>

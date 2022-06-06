@@ -18,6 +18,7 @@ const ImageSequence = forwardRef(({ progress }, ref) => {
                     backgroundImage: `url('${item[0] ? item[0].src : null}')`,
                     backgroundSize: 'contain',
                     backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
                 }}
             />
         ));

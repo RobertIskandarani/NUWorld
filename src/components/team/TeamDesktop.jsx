@@ -18,6 +18,7 @@ const TeamDesktop = () => {
                                     name={person.name}
                                     role={person.role}
                                     description={person.description}
+                                    display="Desktop"
                                 />
                             );
                         })}
@@ -33,6 +34,7 @@ const TeamDesktop = () => {
                                     name={person.name}
                                     role={person.role}
                                     description={person.description}
+                                    display="Desktop"
                                 />
                             );
                         })}

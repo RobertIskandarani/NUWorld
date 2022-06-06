@@ -22,6 +22,7 @@ const TeamMobile = () => {
                     name={personal[index].name}
                     role={personal[index].role}
                     description={personal[index].description}
+                    display="Mobile"
                 />
                 <IoIosArrowForward
                     color="white"

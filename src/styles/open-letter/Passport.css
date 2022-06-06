@@ -47,8 +47,10 @@
     }
 
     .capture-it {
-        font-size: 1.25vw;
+        font-size: 4.296875vw;
         font-family: 'Capture-it';
+        margin: 0;
+        padding: 0;
     }
 
     .voluntarios-passport {
@@ -116,8 +118,10 @@
     }
 
     .capture-it {
-        font-size: 4.26288vw;
+        font-size: 8.52575vw;
         font-family: 'Capture-it';
+        margin: 0;
+        padding: 0;
     }
 
     .voluntarios-passport {

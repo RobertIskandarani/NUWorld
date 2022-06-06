@@ -10,7 +10,6 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('./../../../assets/RoadMap', false, /\.(png|jpe?g|svg)$/));
-console.log(images);
 const FramesArray = () => {
     const [AA0, AA0S] = useImage(images[0]);
     const [AA1, AA1S] = useImage(images[1]);
