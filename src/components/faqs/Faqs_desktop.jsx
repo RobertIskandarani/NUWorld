@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Professor from './../../assets/Dr Professor para FAQ.webp';
-import Nekevah from './../../assets/Nekevah para FAQ.webp';
-import LogoNU from './../../assets/Isotipo NuWorld Blanco.webp';
+import Professor from './../../assets/Dr Professor para FAQ.png';
+import Nekevah from './../../assets/Nekevah para FAQ.png';
+import LogoNU from './../../assets/Isotipo NuWorld Blanco.png';
 import FaqsPros from './Faq_pros';
 import FaqsNewbies from './Faq_newbies';
 import '../../styles/Faqs/Faqs_desktop.css';

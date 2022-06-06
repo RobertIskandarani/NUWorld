@@ -1,6 +1,6 @@
 import React from 'react';
 import './../../styles/generics/Icons-list.css';
-import Opensea from './../../assets/OpenSea.webp';
+import Opensea from './../../assets/OpenSea.png';
 import { FaTwitter, FaDiscord, FaInstagram } from 'react-icons/fa';
 
 const Icon = i => {

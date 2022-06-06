@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoImg from './../../assets/Logo Nu World - Alta.webp';
+import LogoImg from './../../assets/Logo Nu World - Alta.png';
 import './../../styles/generics/Logo.css';
 
 const Logo = () => {
