@@ -5,25 +5,13 @@ import Body from './components/Body.jsx';
 import Footer from './components/Footer.jsx';
 
 const App = () => {
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 10000);
-    }, []);
-
-    if (isLoading) {
-        return <div>Loading...</div>;
-    } else {
-        return (
-            <div className="container" id="app">
-                <Header />
-                <Body />
-                <Footer />
-            </div>
-        );
-    }
+    return (
+        <div className="container" id="app">
+            <Header />
+            <Body />
+            <Footer />
+        </div>
+    );
 };
 
 export default App;
