@@ -25,7 +25,7 @@ const Roadmap = () => {
         <div className="roadmap">
             <Controller>
                 <Scene
-                    duration="1800%"
+                    duration="5500vh"
                     triggerHook="onLeave"
                     pin
                     pinSettings={{ pushFollowers: false }}
