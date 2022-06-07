@@ -27,7 +27,7 @@ const Header = ({ video }) => {
 
     return (
         <header className="header">
-            <div className={width <= 768 ? 'mobile-top' : 'desktop-top'}>
+            <div className={width <= 768 ? 'mobile-top-' + activeMenu : 'desktop-top'}>
                 <div className="navbar">
                     <div className="logo-header">
                         <Logo />
