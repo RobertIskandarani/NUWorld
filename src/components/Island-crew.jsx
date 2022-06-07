@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from './../assets/Banner Secundario para Web Mobile op.1.jpg';
 import './../styles/Island-crew.css';
 import useAnalyticsEventTracker from '../ga';
 
