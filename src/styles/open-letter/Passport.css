@@ -56,6 +56,7 @@
     .voluntarios-passport {
         margin-top: -10%;
         margin-bottom: -10%;
+        margin-right: -5%;
         width: 40%;
         display: flex;
         align-items: center;
@@ -63,7 +64,7 @@
     }
 
     .passport-img {
-        width: 170%;
+        width: 40vw;
         height: auto;
     }
 }
@@ -134,7 +135,7 @@
     }
 
     .passport-img {
-        width: 170%;
+        width: 90vw;
         height: auto;
     }
 }
