@@ -6,7 +6,6 @@ const IslandCrew = () => {
     const discordTracker = useAnalyticsEventTracker('DISCORD');
     return (
         <div id="island-crew" className="island">
-            {/* <img className="island-banner" src={Banner} alt="BannerSecundario" /> */}
             <div className="join-discord">
                 <a
                     href="https://discord.gg/E4jSG2t6wF"
