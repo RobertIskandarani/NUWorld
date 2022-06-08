@@ -28,7 +28,7 @@ setTimeout(
                 <App hideLoader={hideLoader} showLoader={showLoader} />
             </React.StrictMode>
         ),
-    7000
+    8000
 );
 
 root.render();
