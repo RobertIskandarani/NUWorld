@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import OurStructure from '../open-letter/Open-letter';
 import IslandCast from '../Island-crew';
-import Roadmap from '../Roadmap/Roadmap';
 import Team from '../team/Team';
 import Faqs from '../faqs/Faqs';
 import './../../styles/Body.css';
 import PlayerMobile from '../body/PlayerMobile';
 import PlayerDesktop from '../body/PlayerDesktop';
+import Roadmap from '../Roadmap';
 
 const Body = () => {
     const [width, setWindowWidth] = useState(0);

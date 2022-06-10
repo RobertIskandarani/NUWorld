@@ -1,15 +1,16 @@
 import React from 'react';
-import Iframe from 'react-iframe';
+import ReactPlayer from 'react-player';
+
 const PlayerDesktop = () => {
-    const src = 'https://player.vimeo.com/video/716537930?autoplay=1&muted=1&controls=0&loop=1';
     return (
-        <Iframe
-            src={src}
+        <ReactPlayer
+            url={require('./../../videos/Banner_superior_Web_Okey.mov.mp4')}
             width="100%"
             height="100%"
-            frameBorder="0"
-            allow="autoplay; fullscreen"
-        ></Iframe>
+            loop
+            playing
+            muted
+        />
     );
 };
 
