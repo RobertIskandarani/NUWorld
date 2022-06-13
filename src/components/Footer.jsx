@@ -1,10 +1,14 @@
 import React from 'react';
-import './../styles/Footer.css';
+
 import FooterTop from './../assets/bg_body_top.png';
-import Logo from './generics/Logo';
 import Icon from './generics/Icons-list';
+import Logo from './generics/Logo';
+
 import IconJson from '../data/icons.json';
+
 import useAnalyticsEventTracker from '../ga';
+
+import './../styles/Footer.css';
 
 const Footer = () => {
     const discordTracker = useAnalyticsEventTracker('FOOTER');

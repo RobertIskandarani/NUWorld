@@ -1,5 +1,7 @@
 import React from 'react';
+
 import PassportImg from './../../assets/Passport.png';
+
 import './../../styles/open-letter/Passport.css';
 
 const Passport = () => {

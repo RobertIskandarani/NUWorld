@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './../../styles/Faqs/Faqs.css';
+
 import FaqsDesktop from './Faqs_desktop';
 import FaqsMobile from './Faqs_mobile';
+
+import './../../styles/Faqs/Faqs.css';
 
 const Faqs = () => {
     const [width, setWindowWidth] = useState(0);

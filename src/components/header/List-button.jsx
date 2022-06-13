@@ -1,6 +1,7 @@
 import React from 'react';
-import './../../styles/header/List-button.css';
 import { Link } from 'react-scroll/modules';
+
+import './../../styles/header/List-button.css';
 
 const ListButton = ({ name, section, setActiveMenu }) => {
     return (

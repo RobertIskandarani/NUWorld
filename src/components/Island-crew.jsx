@@ -1,6 +1,8 @@
 import React from 'react';
-import './../styles/Island-crew.css';
+
 import useAnalyticsEventTracker from '../ga';
+
+import './../styles/Island-crew.css';
 
 const IslandCrew = () => {
     const discordTracker = useAnalyticsEventTracker('DISCORD');

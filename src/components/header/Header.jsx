@@ -1,12 +1,16 @@
-import '../../styles/header/Header.css';
 import React, { useState, useEffect } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+
+import Icon from '../generics/Icons-list';
 import ListButton from './List-button';
 import Logo from '../generics/Logo';
+
 import IconJson from '../../data/icons.json';
-import Icon from '../generics/Icons-list';
 import sectionButtons from '../../data/sections.json';
+
 import useAnalyticsEventTracker from '../../ga';
-import { FaBars, FaTimes } from 'react-icons/fa';
+
+import '../../styles/header/Header.css';
 
 const Header = ({ video }) => {
     const discordTracker = useAnalyticsEventTracker('HEADER');

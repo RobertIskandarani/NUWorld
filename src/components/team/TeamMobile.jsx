@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import Perfil from './Perfil';
-import personal from '../../data/team';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+
+import Perfil from './Perfil';
+
+import personal from '../../data/team';
 
 const TeamMobile = () => {
     const [index, setIndex] = useState(0);

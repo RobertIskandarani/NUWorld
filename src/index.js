@@ -1,7 +1,9 @@
-import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import App from './App';
+
+import './index.css';
 
 const loadingPage = document.querySelector('.loading-page');
 const loader = document.querySelector('.loader');

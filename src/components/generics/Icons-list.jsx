@@ -1,7 +1,9 @@
 import React from 'react';
-import './../../styles/generics/Icons-list.css';
-import Opensea from './../../assets/OpenSea.png';
 import { FaTwitter, FaDiscord, FaInstagram } from 'react-icons/fa';
+
+import Opensea from './../../assets/OpenSea.png';
+
+import './../../styles/generics/Icons-list.css';
 
 const Icon = i => {
     let component = null;

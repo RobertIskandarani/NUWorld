@@ -7,6 +7,7 @@ import {
     AccordionItemState,
 } from 'react-accessible-accordion';
 import { FaPlus, FaMinus } from 'react-icons/fa';
+
 import './../../styles/Faqs/Faq_Item.css';
 
 const FaqItem = ({ title, content }) => {

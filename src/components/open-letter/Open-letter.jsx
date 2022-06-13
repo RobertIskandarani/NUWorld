@@ -1,7 +1,9 @@
 import React from 'react';
-import './../../styles/open-letter/Open-letter.css';
+
 import Passport from './Passport';
 import PrincipalStructre from './Principal-structre';
+
+import './../../styles/open-letter/Open-letter.css';
 
 const OpenLetter = () => {
     return (

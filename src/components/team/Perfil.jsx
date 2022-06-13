@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Modal from 'react-modal';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
+import Modal from 'react-modal';
 
 const Perfil = ({ img, name, role, description, display }) => {
     const [isOpen, setIsOpen] = useState(false);

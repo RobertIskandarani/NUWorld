@@ -1,9 +1,13 @@
 import React from 'react';
-import './../../styles/open-letter/Principal-structre.css';
-import IconJson from '../../data/icons.json';
+
 import Icon from '../generics/Icons-list';
 import Nekevah from './../../assets/Nekevha con Triangulo Optimizada.png';
+
+import IconJson from '../../data/icons.json';
+
 import useAnalyticsEventTracker from '../../ga';
+
+import './../../styles/open-letter/Principal-structre.css';
 
 const PrincipalStructre = () => {
     const discordTracker = useAnalyticsEventTracker('BODY');

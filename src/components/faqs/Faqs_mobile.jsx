@@ -1,6 +1,4 @@
 import React from 'react';
-import FaqsPros from './Faq_pros';
-import FaqsNewbies from './Faq_newbies';
 import {
     Accordion,
     AccordionItem,
@@ -10,6 +8,10 @@ import {
     AccordionItemState,
 } from 'react-accessible-accordion';
 import { FaPlus, FaMinus } from 'react-icons/fa';
+
+import FaqsNewbies from './Faq_newbies';
+import FaqsPros from './Faq_pros';
+
 import '../../styles/Faqs/Faqs_mobile.css';
 
 const FaqsMobile = () => {

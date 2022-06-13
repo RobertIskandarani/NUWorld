@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import Professor from './../../assets/Dr Professor para FAQ.png';
-import Nekevah from './../../assets/Nekevah para FAQ.png';
-import LogoNU from './../../assets/Isotipo NuWorld Blanco.png';
-import FaqsPros from './Faq_pros';
+
 import FaqsNewbies from './Faq_newbies';
+import FaqsPros from './Faq_pros';
+import LogoNU from './../../assets/Isotipo NuWorld Blanco.png';
+import Nekevah from './../../assets/Nekevah para FAQ.png';
+import Professor from './../../assets/Dr Professor para FAQ.png';
+
 import '../../styles/Faqs/Faqs_desktop.css';
 
 const FaqsDesktop = () => {

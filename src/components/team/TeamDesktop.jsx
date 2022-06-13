@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Perfil from './Perfil';
+
 import personal from '../../data/team';
 
 const TeamDesktop = () => {
