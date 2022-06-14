@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 const PlayerDesktop = () => {
     return (
         <ReactPlayer
-            url={require('./../../videos/Banner_superior_Web_Okey.mov.mp4')}
+            url="https://vimeo.com/718039735"
             width="100%"
             height="100%"
             loop

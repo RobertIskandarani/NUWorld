@@ -7,7 +7,7 @@ const Roadmap = () => {
     return (
         <div className="roadmap">
             <ReactPlayer
-                url={require('./../videos/RoadMap NuWorld.mp4')}
+                url="https://vimeo.com/719122381"
                 width="100%"
                 height="100%"
                 loop
