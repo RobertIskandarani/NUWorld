@@ -10,6 +10,7 @@ const PlayerDesktop = () => {
             loop
             playing
             muted
+            playsinline
         />
     );
 };

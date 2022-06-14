@@ -10,6 +10,7 @@ const PlayerMobile = () => {
             loop
             playing
             muted
+            playsinline
         />
     );
 };
