@@ -13,6 +13,7 @@ const Roadmap = () => {
                 loop
                 playing
                 muted
+                preload="auto"
             />
         </div>
     );
