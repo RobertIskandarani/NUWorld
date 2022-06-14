@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 import './index.css';
-
+/* 
 const loadingPage = document.querySelector('.loading-page');
 const loader = document.querySelector('.loader');
 
@@ -21,16 +21,16 @@ setTimeout(() => changeProgress(100), 8000);
 const showLoader = () => loadingPage.classList.remove('loader--hide');
 
 const hideLoader = () => loadingPage.classList.add('loader--hide');
-
+ */
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setTimeout(
-    () =>
-        root.render(
-            <React.StrictMode>
-                <App hideLoader={hideLoader} showLoader={showLoader} />
-            </React.StrictMode>
-        ),
+/* setTimeout(
+    () => */
+root.render(
+    <React.StrictMode>
+        <App /* hideLoader={hideLoader} showLoader={showLoader} */ />
+    </React.StrictMode>
+); /* ,
     8000
 );
 
-root.render();
+root.render(); */

@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import VimeoPlayer from 'react-player/vimeo';
 
 const PlayerMobile = () => {
     return (
-        <ReactPlayer
+        <VimeoPlayer
             url="https://vimeo.com/718044664"
             width="100%"
             height="100%"

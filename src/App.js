@@ -6,8 +6,8 @@ import Footer from './components/Footer.jsx';
 
 import './App.css';
 
-const App = ({ hideLoader }) => {
-    useEffect(hideLoader, []);
+const App = (/* { hideLoader } */) => {
+    // useEffect(hideLoader, []);
 
     return (
         <div className="container" id="app">

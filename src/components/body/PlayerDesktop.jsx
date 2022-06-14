@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import VimeoPlayer from 'react-player/vimeo';
 
 const PlayerDesktop = () => {
     return (
-        <ReactPlayer
+        <VimeoPlayer
             url="https://vimeo.com/718039735"
             width="100%"
             height="100%"
