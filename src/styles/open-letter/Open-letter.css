@@ -33,11 +33,10 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: url('./../../assets/header_bg.png');
-        background-size: cover;
+        background-image: url('./../../assets/Fondo.png');
+        background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
+        background-position: top;
     }
     .open-letter-title {
         width: 80%;
