@@ -44,7 +44,7 @@ const Roadmap = () => {
             }
         } else {
             if (
-                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 2) &
+                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 3) &
                 (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight)
             ) {
                 setPlaying(true);
