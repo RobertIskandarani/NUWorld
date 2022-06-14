@@ -221,7 +221,7 @@
     .team-personal {
         width: 100%;
         height: 100%;
-        margin: 0;
+        margin-bottom: 2%;
         padding: 0;
         display: flex;
         flex-direction: row;
