@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
 import Modal from 'react-modal';
 
 const Perfil = ({ img, name, role, description, display }) => {
     const [isOpen, setIsOpen] = useState(false);
+    const [width, setWindowWidth] = useState(0);
+
+    useEffect(() => {
+        updateDimensions();
+        window.addEventListener('resize', updateDimensions);
+        return () => window.removeEventListener('resize', updateDimensions);
+    }, []);
+
+    const updateDimensions = () => {
+        const width = window.innerWidth;
+        setWindowWidth(width);
+    };
 
     const toggleModal = () => {
         setIsOpen(!isOpen);
@@ -22,7 +34,13 @@ const Perfil = ({ img, name, role, description, display }) => {
                     <div className="modal">
                         <div className="modal-section">
                             <div className="modal-img-section">
-                                <img className="modal-img" src={img} alt={name} />
+                                <img
+                                    width="100%"
+                                    height="auto"
+                                    className="modal-img"
+                                    src={img}
+                                    alt={name}
+                                />
                             </div>
                             <div className="modal-description-section">
                                 <p className="modal-title">{name}</p>
@@ -37,7 +55,13 @@ const Perfil = ({ img, name, role, description, display }) => {
                     </div>
                 </Modal>
             )}
-            <img className="person-img" src={img} alt={name} />
+            <img
+                width={width <= 768 ? '60%' : '100%'}
+                height="auto"
+                className="person-img"
+                src={img}
+                alt={name}
+            />
             <p className="person-title"> {name} </p>
             <p className="person-role"> {role} </p>
         </li>

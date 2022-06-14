@@ -49,7 +49,6 @@
     }
 
     .ten-thousand {
-        width: 40%;
         margin-top: 0.5%;
         margin-left: -2%;
         padding: 0;
@@ -73,13 +72,6 @@
         font-size: 1.09375vw;
     }
 
-    .capture-it {
-        font-size: 4.296875vw;
-        font-family: 'Capture-it';
-        margin: 0;
-        padding: 0;
-    }
-
     .voluntarios-passport {
         margin-top: -10%;
         margin-bottom: -10%;
@@ -92,7 +84,6 @@
 
     .passport-img {
         width: 40vw;
-        height: auto;
     }
 }
 
@@ -147,7 +138,6 @@
     }
 
     .ten-thousand {
-        width: 55%;
         margin-top: 0.5%;
         margin-left: -2%;
         padding: 0;
@@ -171,13 +161,6 @@
         font-size: 3.73001vw;
     }
 
-    .capture-it {
-        font-size: 8.52575vw;
-        font-family: 'Capture-it';
-        margin: 0;
-        padding: 0;
-    }
-
     .voluntarios-passport {
         margin-top: -5%;
         margin-bottom: -15%;
@@ -189,6 +172,5 @@
 
     .passport-img {
         width: 90vw;
-        height: auto;
     }
 }

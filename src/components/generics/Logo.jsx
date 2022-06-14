@@ -7,7 +7,7 @@ import './../../styles/generics/Logo.css';
 const Logo = () => {
     return (
         <a className="logo" href="/#">
-            <img className="logo-img" src={LogoImg} alt="Logo" />
+            <img width="100%" height="auto" src={LogoImg} alt="Logo" />
         </a>
     );
 };

@@ -17,12 +17,24 @@ const FaqsDesktop = () => {
                 <div className="faqs-desktop-title">
                     <p>FREQUENTLY ASKED QUESTIONS</p>
                 </div>
-                <img className="faqs-background" src={LogoNU} alt="FaqsNU" />
+                <img
+                    width="25%"
+                    height="auto"
+                    className="faqs-background"
+                    src={LogoNU}
+                    alt="FaqsNU"
+                />
                 <div className="faqs-banner">
                     <div className="faqs-character" onClick={() => setFor('newbies')}>
                         <div className={'faqs-professor-principal-' + faqs_for}>
                             <p className={'faqs-title-professor-' + faqs_for}>FOR NEWBIES</p>
-                            <img className="faqs-professor-img" src={Professor} alt="Professor" />
+                            <img
+                                width="40%"
+                                height="auto"
+                                className="faqs-professor-img"
+                                src={Professor}
+                                alt="Professor"
+                            />
                         </div>
                         <div className={'faqs-name-professor-' + faqs_for}>
                             <p className="faqs-name">Dr. Professor</p>
@@ -32,7 +44,13 @@ const FaqsDesktop = () => {
                     <div className="faqs-character" onClick={() => setFor('pros')}>
                         <div className={'faqs-nekevah-principal-' + faqs_for}>
                             <p className={'faqs-title-nekevah-' + faqs_for}>FOR PROS</p>
-                            <img className="faqs-nekevah-img" src={Nekevah} alt="Nekevah" />
+                            <img
+                                width="36.065%"
+                                height="auto"
+                                className="faqs-nekevah-img"
+                                src={Nekevah}
+                                alt="Nekevah"
+                            />
                         </div>
                         <div className={'faqs-name-nekevah-' + faqs_for}>
                             <p className="faqs-name">Cap. Nekevah</p>

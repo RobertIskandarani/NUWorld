@@ -15,7 +15,13 @@ const PrincipalStructre = () => {
     return (
         <div className="structre-description">
             <div className="nekevah">
-                <img className="structre-img" src={Nekevah} alt="Nekevah" />
+                <img
+                    width="100%"
+                    height="100%"
+                    className="structre-img"
+                    src={Nekevah}
+                    alt="Nekevah"
+                />
                 <div className="nekevah-icons">
                     {openLetter.map(i => {
                         return (

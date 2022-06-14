@@ -16,7 +16,12 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-top">
-                <img className="footer-top-img" src={FooterTop} alt="footerTop" />
+                <img
+                    width="100%"
+                    height="auto"
+                    src={FooterTop}
+                    alt="footerTop"
+                />
             </div>
             <div className="footer-section">
                 <div className="logo-footer">

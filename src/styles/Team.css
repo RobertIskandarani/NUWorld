@@ -60,8 +60,6 @@
     .person-img {
         margin: 0;
         padding: 0;
-        width: 100%;
-        height: 100%;
         border-radius: 100%;
     }
 
@@ -133,7 +131,6 @@
     }
 
     .modal-img {
-        width: 100%;
         border-radius: 100%;
     }
 
@@ -244,7 +241,6 @@
     .person-img {
         margin: 0;
         padding: 0;
-        width: 60%;
         border-radius: 100%;
     }
 
