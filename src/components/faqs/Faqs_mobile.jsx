@@ -11,6 +11,8 @@ import { FaPlus, FaMinus } from 'react-icons/fa';
 
 import FaqsNewbies from './Faq_newbies';
 import FaqsPros from './Faq_pros';
+import Nekevah from './../../assets/Nekevah para FAQ.png';
+import Professor from './../../assets/Dr Professor para FAQ.png';
 
 import '../../styles/Faqs/Faqs_mobile.css';
 
@@ -45,6 +47,9 @@ const FaqsMobile = () => {
                     </AccordionItemState>
 
                     <AccordionItemPanel className={'accordion-panel-mobile'}>
+                        <div className="professor-section">
+                            <img width="80%" src={Professor} alt="Professor" />
+                        </div>
                         <FaqsNewbies />
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -72,6 +77,9 @@ const FaqsMobile = () => {
                     </AccordionItemState>
 
                     <AccordionItemPanel className={'accordion-panel-mobile'}>
+                        <div className="nekevah-section">
+                            <img width="80%" src={Nekevah} alt="Nekevah" />
+                        </div>
                         <FaqsPros />
                     </AccordionItemPanel>
                 </AccordionItem>

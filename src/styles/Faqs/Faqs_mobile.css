@@ -89,3 +89,17 @@
     font-size: 3.73001vw;
     color: white;
 }
+
+.professor-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.nekevah-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+}

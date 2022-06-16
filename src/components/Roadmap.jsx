@@ -35,8 +35,8 @@ const Roadmap = () => {
     const handleEnter = plattform => {
         if (plattform === 'mobile') {
             if (
-                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight) &
-                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight)
+                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 3) &
+                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight / 2)
             ) {
                 setPlaying(true);
             } else {
@@ -45,7 +45,7 @@ const Roadmap = () => {
         } else {
             if (
                 (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 3) &
-                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight)
+                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight / 2)
             ) {
                 setPlaying(true);
             } else {
