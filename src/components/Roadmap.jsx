@@ -5,7 +5,6 @@ import './../styles/Roadmap.css';
 
 const Roadmap = () => {
     const [url, setUrl] = useState();
-    const roadmap = useRef();
 
     useEffect(() => {
         updateDimensions();
