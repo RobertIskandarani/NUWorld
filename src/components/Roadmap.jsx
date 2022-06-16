@@ -16,22 +16,24 @@ const Roadmap = () => {
     const updateDimensions = () => {
         const width = window.innerWidth;
         if (width <= 768) {
-            setUrl('https://vimeo.com/720308373');
+            setUrl(
+                'https://player.vimeo.com/video/720308373?h=b70a6d5eb5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1'
+            );
         } else {
             setUrl(
-                'https://player.vimeo.com/video/719122381?h=6225b98fa5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                'https://player.vimeo.com/video/719122381?h=6225b98fa5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1'
             );
         }
     };
 
     return (
-        <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+        <div id="roadmap" className="roadmap">
             <iframe
-                src="https://player.vimeo.com/video/719122381?h=6225b98fa5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1"
+                className="roadmap-video"
+                src={url}
                 frameborder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                 title="RoadMap NuWorld"
             ></iframe>
         </div>
