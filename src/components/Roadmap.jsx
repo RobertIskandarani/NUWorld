@@ -1,19 +1,13 @@
 import React, { useRef, useState } from 'react';
 import { useEffect } from 'react';
-import VimeoPlayer from 'react-player/vimeo';
 
 import './../styles/Roadmap.css';
 
 const Roadmap = () => {
-    const [playing, setPlaying] = useState(false);
     const [url, setUrl] = useState();
-    const [y, setY] = useState();
     const roadmap = useRef();
 
     useEffect(() => {
-        window.onscroll = () => {
-            setY(window.scrollY);
-        };
         updateDimensions();
         window.addEventListener('resize', updateDimensions);
         return () => window.removeEventListener('resize', updateDimensions);
@@ -23,46 +17,23 @@ const Roadmap = () => {
         const width = window.innerWidth;
         if (width <= 768) {
             setUrl('https://vimeo.com/720308373');
-            handleEnter('mobile');
         } else {
-            setUrl('https://vimeo.com/719122381');
-            handleEnter('desktop');
-        }
-    };
-
-    const handleEnter = plattform => {
-        if (plattform === 'mobile') {
-            if (
-                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 2) &
-                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight / 2)
-            ) {
-                setPlaying(true);
-            } else {
-                setPlaying(false);
-            }
-        } else {
-            if (
-                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 3) &
-                (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight / 2)
-            ) {
-                setPlaying(true);
-            } else {
-                setPlaying(false);
-            }
+            setUrl(
+                'https://player.vimeo.com/video/719122381?h=6225b98fa5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+            );
         }
     };
 
     return (
-        <div className="roadmap" ref={roadmap}>
-            <VimeoPlayer
-                url={url}
-                width="100%"
-                height="100%"
-                loop
-                playing={playing}
-                muted
-                playsinline
-            />
+        <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+            <iframe
+                src="https://player.vimeo.com/video/719122381?h=6225b98fa5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                title="RoadMap NuWorld"
+            ></iframe>
         </div>
     );
 };
