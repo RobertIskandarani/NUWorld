@@ -9,7 +9,6 @@ const Roadmap = () => {
     const [url, setUrl] = useState();
     const [y, setY] = useState();
     const roadmap = useRef();
-    const [width, setWindowWidth] = useState(0);
 
     useEffect(() => {
         window.onscroll = () => {
@@ -22,7 +21,6 @@ const Roadmap = () => {
 
     const updateDimensions = () => {
         const width = window.innerWidth;
-        setWindowWidth(width);
         if (width <= 768) {
             setUrl('https://vimeo.com/720308373');
             handleEnter('mobile');
@@ -35,7 +33,7 @@ const Roadmap = () => {
     const handleEnter = plattform => {
         if (plattform === 'mobile') {
             if (
-                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 3) &
+                (y >= roadmap.current.offsetTop - roadmap.current.offsetHeight / 2) &
                 (y <= roadmap.current.offsetTop + roadmap.current.offsetHeight / 2)
             ) {
                 setPlaying(true);
