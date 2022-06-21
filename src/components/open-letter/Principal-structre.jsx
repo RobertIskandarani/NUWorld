@@ -10,7 +10,6 @@ import useAnalyticsEventTracker from '../../ga';
 import './../../styles/open-letter/Principal-structre.css';
 
 const PrincipalStructre = () => {
-    const discordTracker = useAnalyticsEventTracker('BODY');
     const openLetter = IconJson.openLetter;
     return (
         <div className="structre-description">
@@ -31,7 +30,7 @@ const PrincipalStructre = () => {
                                 href={i.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={() => discordTracker(i.icon)}
+                                onClick={() => useAnalyticsEventTracker(i.icon)}
                             >
                                 <Icon key={i.id} icon={i.icon} />
                             </a>

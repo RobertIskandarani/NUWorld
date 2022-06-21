@@ -12,8 +12,7 @@ import useAnalyticsEventTracker from '../../ga';
 
 import '../../styles/header/Header.css';
 
-const Header = ({ video }) => {
-    const discordTracker = useAnalyticsEventTracker('HEADER');
+const Header = () => {
     const header = IconJson.header;
     const [activeMenu, setActiveMenu] = useState(false);
     const [width, setWindowWidth] = useState(0);
@@ -80,7 +79,7 @@ const Header = ({ video }) => {
                                         href={i.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        onClick={() => discordTracker(i.icon)}
+                                        onClick={() => useAnalyticsEventTracker(i.icon)}
                                     >
                                         <Icon icon={i.icon} />
                                     </a>

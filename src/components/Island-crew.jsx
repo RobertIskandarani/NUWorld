@@ -5,13 +5,12 @@ import useAnalyticsEventTracker from '../ga';
 import './../styles/Island-crew.css';
 
 const IslandCrew = () => {
-    const discordTracker = useAnalyticsEventTracker('DISCORD');
     return (
         <div id="island-crew" className="island">
             <div className="join-discord">
                 <a
                     href="https://discord.gg/E4jSG2t6wF"
-                    onClick={() => discordTracker('Discord')}
+                    onClick={() => useAnalyticsEventTracker('Discord')}
                     className="discord-button"
                     target="_blank"
                     rel="noopener noreferrer"

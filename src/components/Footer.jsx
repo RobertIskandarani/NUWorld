@@ -11,17 +11,11 @@ import useAnalyticsEventTracker from '../ga';
 import './../styles/Footer.css';
 
 const Footer = () => {
-    const discordTracker = useAnalyticsEventTracker('FOOTER');
     const footer = IconJson.footer;
     return (
         <footer className="footer">
             <div className="footer-top">
-                <img
-                    width="100%"
-                    height="auto"
-                    src={FooterTop}
-                    alt="footerTop"
-                />
+                <img width="100%" height="auto" src={FooterTop} alt="footerTop" />
             </div>
             <div className="footer-section">
                 <div className="logo-footer">
@@ -36,7 +30,7 @@ const Footer = () => {
                                 href={i.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={() => discordTracker(i.icon)}
+                                onClick={() => useAnalyticsEventTracker(i.icon)}
                             >
                                 <Icon icon={i.icon} />
                             </a>
