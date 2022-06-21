@@ -1,6 +1,6 @@
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = 'UA-171017718-1';
+const TRACKING_ID = 'G-T4EEP82VG5';
 ReactGA.initialize(TRACKING_ID);
 
 const useAnalyticsEventTracker = (category = 'Blog category') => {
