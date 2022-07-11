@@ -69,7 +69,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.3);
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-top: 1px solid rgba(256, 256, 256, 0.38883599638938904);
@@ -110,7 +110,7 @@
 
 .faqs-name-professor-newbies {
     width: 100%;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@
 
 .faqs-name-professor-pros {
     width: 100%;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +143,7 @@
     height: 2vh;
     display: flex;
     align-self: flex-end;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.3);
     border-left: 1px solid rgba(256, 256, 256, 0.38883599638938904);
 }
 
@@ -152,7 +152,7 @@
     height: 2vh;
     display: flex;
     align-self: flex-end;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.3);
     border-top: 1px solid rgba(256, 256, 256, 0.38883599638938904);
     border-left: 1px solid rgba(256, 256, 256, 0.38883599638938904);
 }
@@ -174,7 +174,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.3);
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
     border-top: 1px solid rgba(256, 256, 256, 0.38883599638938904);
@@ -204,7 +204,7 @@
 
 .faqs-name-nekevah-newbies {
     width: 100%;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,7 +212,7 @@
 
 .faqs-name-nekevah-pros {
     width: 100%;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,7 +225,7 @@
     height: 2vh;
     display: flex;
     align-self: flex-start;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.3);
     border-top: 1px solid rgba(256, 256, 256, 0.38883599638938904);
     border-right: 1px solid rgba(256, 256, 256, 0.38883599638938904);
 }
@@ -235,6 +235,6 @@
     height: 2vh;
     display: flex;
     align-self: flex-start;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.3);
     border-right: 1px solid rgba(256, 256, 256, 0.38883599638938904);
 }

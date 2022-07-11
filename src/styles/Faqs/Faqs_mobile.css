@@ -44,14 +44,14 @@
     width: 90%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: rgba(69, 190, 231, 0.8);
+    background-color: rgba(69, 190, 231, 0.5);
 }
 
 .faqs-mobile-item-pros {
     width: 90%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: rgba(126, 31, 134, 0.8);
+    background-color: rgba(126, 31, 134, 0.5);
 }
 
 .accordion-item-heading-mobile {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
 import Modal from 'react-modal';
+import useAnalyticsEventTracker from '../../ga';
 
 const Perfil = ({ img, name, role, description, display }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,13 @@ const Perfil = ({ img, name, role, description, display }) => {
     };
 
     return (
-        <li className="person" onClick={toggleModal}>
+        <li
+            className="person"
+            onClick={() => {
+                useAnalyticsEventTracker(name);
+                toggleModal();
+            }}
+        >
             {display === 'Mobile' ? null : (
                 <Modal
                     className="modal-dialog"

@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 import Icon from '../generics/Icons-list';
 import ListButton from './List-button';
-import Logo from '../generics/Logo';
+import LogoImg from './../../assets/Logo.png';
 
 import IconJson from '../../data/icons.json';
 import sectionButtons from '../../data/sections.json';
@@ -33,7 +33,9 @@ const Header = () => {
             <div className={width <= 768 ? 'mobile-top-' + activeMenu : 'desktop-top'}>
                 <div className="navbar">
                     <div className="logo-header">
-                        <Logo />
+                        <a className="logo-link" href="/#">
+                            <img width="100%" height="auto" src={LogoImg} alt="Logo" />
+                        </a>
                     </div>
                     <div className="menu-icon">
                         {activeMenu ? (
@@ -62,10 +64,10 @@ const Header = () => {
                     <div className={activeMenu ? 'icons-buttons-active' : 'icons-buttons'}>
                         <div className="buysoon">
                             <a
-                                href="/#"
+                                href="https://discord.gg/E4jSG2t6wF"
                                 className="opensea-button"
                                 target="_blank"
-                                rel="noreferrer"
+                                rel="noopener noreferrer"
                             >
                                 BUY SOON
                             </a>
