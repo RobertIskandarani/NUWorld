@@ -20,7 +20,7 @@ const Gallery = () => {
     return (
         <div className="gallery">
             <h1 className="gallery-title">Gallery</h1>
-            <p className="meet-the-population">Coming soon</p>
+            <p className="meet-the-population">Coming soon...</p>
             <Carousel
                 enableSwipe={true}
                 enableMouseSwipe={true}
