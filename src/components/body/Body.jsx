@@ -9,6 +9,7 @@ import Roadmap from '../Roadmap';
 import Team from '../team/Team';
 
 import './../../styles/Body.css';
+import Gallery from '../Gallery';
 
 const Body = () => {
     const [width, setWindowWidth] = useState(0);
@@ -33,6 +34,8 @@ const Body = () => {
             <OurStructure />
 
             <IslandCast />
+
+            <Gallery />
 
             <Roadmap />
 
