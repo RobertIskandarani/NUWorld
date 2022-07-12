@@ -69,7 +69,10 @@
 
     .krmNah,
     .krmNah:hover,
-    .krmNah:focus {
+    .krmNah:focus,
+    .jYxeHE,
+    .jYxeHE:hover,
+    .jYxeHE:focus {
         cursor: pointer;
         box-shadow: none !important;
         background-color: rgba(69, 190, 231, 1) !important;
@@ -77,7 +80,8 @@
         height: 1vw !important;
     }
 
-    .jhmYzC {
+    .jhmYzC,
+    .kCa-dlP {
         box-shadow: none !important;
         width: 1vw !important;
         height: 1vw !important;
