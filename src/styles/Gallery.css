@@ -48,7 +48,9 @@
     }
 
     .eWjCzc:hover:enabled,
-    .eWjCzc:focus:enabled {
+    .eWjCzc:focus:enabled,
+    .hJJzxj:hover:enabled,
+    .hJJzxj:focus:enabled {
         background-color: transparent !important;
         box-shadow: none !important;
     }
