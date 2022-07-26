@@ -138,13 +138,15 @@
         width: 100vw;
     }
 
-    .rec.rec-arrow {
+    .rec.rec-arrow,
+    .hJJzxj {
         border: none;
         background: none;
         box-shadow: none;
     }
 
-    .rec.rec-arrow:disabled {
+    .rec.rec-arrow:disabled,
+    .hJJzxj:disabled {
         visibility: hidden;
         position: absolute;
         top: auto;
