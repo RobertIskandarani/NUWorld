@@ -134,8 +134,10 @@
         pointer-events: none;
     }
 
-    .rec.rec-slider-container {
+    .rec.rec-slider-container,
+    .gNublD {
         width: 100vw;
+        margin: 0;
     }
 
     .rec.rec-arrow,
@@ -143,6 +145,7 @@
         border: none;
         background: none;
         box-shadow: none;
+        font-size: 20;
     }
 
     .rec.rec-arrow:disabled,
