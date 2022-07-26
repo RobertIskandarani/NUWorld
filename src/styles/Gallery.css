@@ -154,14 +154,16 @@
         z-index: 1;
     }
 
-    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-left {
+    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-left,
+    .sc-bczRLJ.hJJzxj.rec.rec-arrow.rec.rec-arrow-left {
         position: absolute;
         top: auto;
         left: 0;
         z-index: 1;
     }
 
-    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-right {
+    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-right,
+    .sc-bczRLJ.hJJzxj.rec.rec-arrow.rec.rec-arrow-right {
         position: absolute;
         top: auto;
         right: 0;
