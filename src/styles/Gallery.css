@@ -167,7 +167,9 @@
     }
 
     .eWjCzc:hover:enabled,
-    .eWjCzc:focus:enabled {
+    .eWjCzc:focus:enabled,
+    .hJJzxj:hover:enabled,
+    .hJJzxj:focus:enabled {
         background-color: transparent !important;
         box-shadow: none !important;
     }
@@ -194,7 +196,10 @@
 
     .krmNah,
     .krmNah:hover,
-    .krmNah:focus {
+    .krmNah:focus,
+    .jYxeHE,
+    .jYxeHE:hover,
+    .jYxeHE:focus {
         cursor: pointer;
         box-shadow: none !important;
         background-color: rgba(69, 190, 231, 1) !important;
@@ -202,7 +207,8 @@
         height: 3vw !important;
     }
 
-    .jhmYzC {
+    .jhmYzC,
+    .kCa-dlP {
         box-shadow: none !important;
         width: 3vw !important;
         height: 3vw !important;
