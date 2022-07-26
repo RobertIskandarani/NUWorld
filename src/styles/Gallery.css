@@ -32,62 +32,75 @@
         font-family: 'Montserrat', sans-serif;
     }
 
+    .carousel {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .arrow-back,
+    .arrow-forward {
+        visibility: visible;
+        color: rgba(256, 256, 256, 0.3);
+        font-weight: bold;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .arrow-back-hidden,
+    .arrow-forward-hidden {
+        visibility: hidden;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .arrow-back:hover,
+    .arrow-forward:hover {
+        color: rgba(256, 256, 256, 1);
+    }
+
+    .images-carousel {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
     .image-carrousel {
-        width: 98%;
+        width: 31.5%;
+        padding: 0.5%;
         pointer-events: none;
     }
 
-    .rec.rec-arrow {
-        border: none;
-        background: none;
-        box-shadow: none;
+    .dots {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
-    .rec.rec-arrow:disabled {
-        visibility: hidden;
-    }
-
-    .eWjCzc:hover:enabled,
-    .eWjCzc:focus:enabled,
-    .hJJzxj:hover:enabled,
-    .hJJzxj:focus:enabled {
-        background-color: transparent !important;
-        box-shadow: none !important;
-    }
-
-    .rec.rec-pagination {
-        width: 10%;
-        justify-content: space-between;
-    }
-
-    .rec.rec-dot {
+    .dot {
+        width: 3.5vh;
+        height: 3.5vh;
+        margin-left: 1.5%;
+        border-radius: 100%;
         background-color: rgba(256, 256, 256, 0.3);
-        border: none;
     }
 
-    .rec.rec-dot.rec-dot-active {
-        background-color: rgba(69, 190, 231, 1);
-    }
-
-    .krmNah,
-    .krmNah:hover,
-    .krmNah:focus,
-    .jYxeHE,
-    .jYxeHE:hover,
-    .jYxeHE:focus {
-        cursor: pointer;
-        box-shadow: none !important;
-        background-color: rgba(69, 190, 231, 1) !important;
-        width: 1vw !important;
-        height: 1vw !important;
-    }
-
-    .jhmYzC,
-    .kCa-dlP {
-        box-shadow: none !important;
-        width: 1vw !important;
-        height: 1vw !important;
-        align-content: center !important;
+    .dot-selected {
+        width: 3.5vh;
+        height: 3.5vh;
+        margin-left: 1.5%;
+        border-radius: 100%;
+        background-color: rgba(69, 190, 231, 0.8);
     }
 }
 
@@ -132,80 +145,5 @@
         margin-top: 3%;
         width: 100%;
         pointer-events: none;
-    }
-
-    .rec.rec-slider-container {
-        width: 100vw;
-    }
-
-    .rec.rec-arrow {
-        border: none;
-        background: none;
-        box-shadow: none;
-    }
-
-    .rec.rec-arrow:disabled {
-        visibility: hidden;
-        position: absolute;
-        top: auto;
-        left: 0;
-        z-index: 1;
-    }
-
-    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-left {
-        position: absolute;
-        top: auto;
-        left: 0;
-        z-index: 1;
-    }
-
-    .sc-bczRLJ.eWjCzc.rec.rec-arrow.rec.rec-arrow-right {
-        position: absolute;
-        top: auto;
-        right: 0;
-        z-index: 1;
-    }
-
-    .eWjCzc:hover:enabled,
-    .eWjCzc:focus:enabled {
-        background-color: transparent !important;
-        box-shadow: none !important;
-    }
-
-    .hHJTFD {
-        margin: 0 !important;
-    }
-
-    .rec.rec-pagination {
-        width: 70%;
-        margin-top: -10%;
-        z-index: 1;
-        justify-content: space-between;
-    }
-
-    .rec.rec-dot {
-        background-color: rgba(256, 256, 256, 0.3);
-        border: none;
-    }
-
-    .rec.rec-dot.rec-dot-active {
-        background-color: rgba(69, 190, 231, 1);
-    }
-
-    .krmNah,
-    .krmNah:hover,
-    .krmNah:focus {
-        cursor: pointer;
-        box-shadow: none !important;
-        background-color: rgba(69, 190, 231, 1) !important;
-        width: 3vw !important;
-        height: 3vw !important;
-    }
-
-    .jhmYzC {
-        box-shadow: none !important;
-        width: 3vw !important;
-        height: 3vw !important;
-        align-content: center !important;
     }
 }
