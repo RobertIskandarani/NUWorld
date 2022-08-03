@@ -26,7 +26,7 @@ const Roadmap = () => {
     };
 
     return (
-        <div id="roadmap" className="roadmap">
+        <div id="teaser" className="roadmap">
             <iframe
                 className="roadmap-video"
                 src={url}

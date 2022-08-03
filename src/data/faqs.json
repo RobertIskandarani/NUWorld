@@ -21,162 +21,6 @@
     {
         "id": 1,
         "for": "pros",
-        "title": "LET'S CUT THE CRAP. UTILITY #1",
-        "content": [
-            {
-                "id": 0,
-                "content": "The unifying bridge between the NU and the analog WORLD."
-            },
-            {
-                "id": 1,
-                "content": ""
-            },
-            {
-                "id": 2,
-                "content": "THE BASICS, done well"
-            },
-            {
-                "id": 3,
-                "content": ""
-            },
-            {
-                "id": 4,
-                "content": "Besides getting a beautifully tailor-made work of art 😒(the minimum utility you should get here, right?) There are many utilities that come with your commitment to the NUWD."
-            },
-            {
-                "id": 5,
-                "content": ""
-            },
-            {
-                "id": 6,
-                "content": "From day one you will be able to use your NFTs on our 'Click to earn' platform called “The Cryptonite Market”. You will be able to get daily rewards on ETH, mystery boxes, NUWD merchandising, travel expenses, GIFT NFTs, whitelists for other amazing projects, special airdrops and a few surprises that we won’t share with you just yet for legal reasons. No kidding, bruh. NDAs and shit."
-            },
-            {
-                "id": 7,
-                "content": ""
-            },
-            {
-                "id": 8,
-                "content": "It’s an industry standard that every project uses their own token on ETH, but we do not appreciate that gas fees are expensive, and to actually claim your tokens you have to pay at least 2 gas fees (ugh). This is why the 'Cryptonite Market' functions with our own coin."
-            },
-            {
-                "id": 9,
-                "content": "We will deliver the rewards on the BNB chain, making the fees 1 dollar per transaction period. No more speculation on when to claim your rewards or checking when the gas is cheaper, just click on claim, and get your rewards in full."
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "for": "pros",
-        "title": "THE UTILITY OF PURPOSE",
-        "content": [
-            {
-                "id": 0,
-                "content": "The purpose of NUWD is to make this rotten world we live in into a better place. We will invest a significant amount of the earned royalties into different philanthropic endevours. That all member will have a vote on."
-            },
-            {
-                "id": 1,
-                "content": ""
-            },
-            {
-                "id": 2,
-                "content": "SOCIAL: Marginalized communities, LGBTQIA+, tech in developing countries"
-            },
-            {
-                "id": 3,
-                "content": "ENVIRONMENTAL: Bee-keeping, reforestation, sustainable energies and carbon bonds"
-            },
-            {
-                "id": 4,
-                "content": "ECONOMIC: Investments in other projects,stock, development of NUWD 2.0."
-            },
-            {
-                "id": 5,
-                "content": ""
-            },
-            {
-                "id": 6,
-                "content": "We expect future partnership with NFTs 4 Help (An NGO)"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "for": "pros",
-        "title": "YOUR OBLIGATIONS AS AN OLAMITE",
-        "content": [
-            {
-                "id": 0,
-                "content": "The NUWD ORG is a merito-democracy. We are all equal. If you grind enough, proof yourself a leader and stand out in a specific subject on this amazing space we will not only grant you an exclusive VISA (whitelist) to mint, but also the exclusive opportunity to get one of the Governamental Charges, bringing along unique badges to add value and relevance."
-            },
-            {
-                "id": 1,
-                "content": "So even if you don’t get a super rare NFT, the governamental badge attribute will get you up the rarity scale."
-            },
-            {
-                "id": 2,
-                "content": ""
-            },
-            {
-                "id": 3,
-                "content": "As an Olamite, you will be expected to vote and attend gatherings around the globe. Connecting the digital and analog worlds together. Making our community tangible."
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "for": "pros",
-        "title": "GOVERNMENTAL CHARGES?",
-        "content": [
-            {
-                "id": 0,
-                "content": "Although we are a DAO, we propose a state-like structure to ensure the long-term success of the project."
-            },
-            {
-                "id": 1,
-                "content": ""
-            },
-            {
-                "id": 2,
-                "content": "There will be 4 main Ministries: Social, Environmental, Tokenomical & Security."
-            },
-            {
-                "id": 3,
-                "content": "Every Minister will be voted by the community and will access certain benefits and take certain responsibilities."
-            },
-            {
-                "id": 4,
-                "content": ""
-            },
-            {
-                "id": 5,
-                "content": "Under every Ministry there will be 3 Secretaries. Every secretary will actively interact with their own channel/micro community to showcase ideas and take charge of the voting process."
-            },
-            {
-                "id": 6,
-                "content": ""
-            },
-            {
-                "id": 7,
-                "content": "PERKS"
-            },
-            {
-                "id": 8,
-                "content": "Governmental charges have doble chances to play every day in “The Cryptonite Market” unlike NUWD citizens that only have one chance a day."
-            },
-            {
-                "id": 9,
-                "content": ""
-            },
-            {
-                "id": 10,
-                "content": "Every governmental member has a special voice in our organization, and will have meetings regarding the future of the project with the founders and the team of the NUWD. If you get involved with us we want you to join the organization forreal. So get ready, because we have lots of plans for the future and your help will be needed, appreciated and rewarded.."
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "for": "pros",
         "title": "THE BIRTH PLACE OF NUWD",
         "content": [
             {
@@ -186,18 +30,18 @@
         ]
     },
     {
-        "id": 6,
+        "id": 2,
         "for": "pros",
         "title": "ROYALTIES?",
         "content": [
             {
                 "id": 0,
-                "content": "NFTs have a 10% royalty fee that will go back to the project to pay for the projects that the different mesenteries propose and the rest we will give it back in the Cryptonite market so you don't even have to sell your NFT te get some money back"
+                "content": "NFTs have a 10% royalty fee that will go back to the project to pay for the next steps of this amazing project"
             }
         ]
     },
     {
-        "id": 7,
+        "id": 3,
         "for": "newbies",
         "title": "NON-FUNGIBLE TOKEN 😬",
         "content": [
@@ -248,7 +92,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 4,
         "for": "newbies",
         "title": "WHAT IS A NU WORLD NFT?",
         "content": [
@@ -259,8 +103,8 @@
         ]
     },
     {
-        "id": 9,
-        "for": "newbies",
+        "id": 5,
+        "for": "pros",
         "title": "WHAT IS ERC721A?",
         "content": [
             {
@@ -270,7 +114,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 6,
         "for": "newbies",
         "title": "WHAT IS A CRYPTO WALLET?",
         "content": [
@@ -289,7 +133,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 7,
         "for": "newbies",
         "title": "HOW TO SET UP A METAMASK WALLET ON DESKTOP",
         "content": [
@@ -336,7 +180,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 8,
         "for": "newbies",
         "title": "HOW TO SET UP A METAMASK WALLET ON MOBILE",
         "content": [
@@ -371,7 +215,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 9,
         "for": "newbies",
         "title": "WHAT ARE GAS FEES?",
         "content": [
@@ -382,7 +226,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 10,
         "for": "newbies",
         "title": "HOW DO I BUY A NU WORLD NFT?",
         "content": [
