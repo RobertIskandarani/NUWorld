@@ -25,21 +25,21 @@ const Passport = () => {
                 <div className="voluntarios-description">
                     <div className="voluntarios-title">
                         <div className="ten-olamite">
-                            <img
+                            {/* <img
                                 width={width <= 768 ? '55%' : '40%'}
                                 height="auto"
                                 className="ten-thousand"
                                 src={tenThousand}
                                 alt="ten thousand"
-                            />
-                            <p className="olamite">OLAMITE</p>
+                            /> */}
                         </div>
-                        <p className="passports">PASSPORTS</p>
+                        <p className="passports">High quality NFTs at ZERO COST.</p>
                     </div>
+                    <p className="voluntarios-text">Why FREE MINT?</p>
                     <p className="voluntarios-text">
-                        The people who will embark on this interstellar adventure and populate Olam
-                        Island, are in reality 10,000 tailor-made and avant-guarde humanoids that
-                        will be avaiable on the ETH network
+                        We have the philantropic purpose of delivering HiFi, accesible & sustainable
+                        assets in a comunity accustomed to LoFi under-deliveries even in paid
+                        mints.  Or haven't you experienced a rug before?
                     </p>
                 </div>
                 <div className="voluntarios-passport">

@@ -112,11 +112,8 @@ header {
     }
 
     .opensea-button {
-        height: 100%;
         width: 100%;
-        padding-top: 10.01%;
-        padding-bottom: 10%;
-        line-height: 0;
+        line-height: 140%;
         border-radius: 50px;
         background-color: #45bee7;
         color: white;
@@ -270,11 +267,8 @@ header {
     }
 
     .opensea-button {
-        height: 100%;
         width: 100%;
-        padding-top: 7.5%;
-        padding-bottom: 7.5%;
-        line-height: 0;
+        line-height: 175%;
         border-radius: 50px;
         background-color: #45bee7;
         color: white;

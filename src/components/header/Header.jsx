@@ -69,7 +69,7 @@ const Header = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                BUY SOON
+                                FREE MINT
                             </a>
                         </div>
                         <div className="icons-list-header">

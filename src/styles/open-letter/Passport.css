@@ -45,7 +45,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .ten-thousand {
@@ -53,16 +53,13 @@
         padding: 0;
     }
 
-    .olamite,
     .passports {
         width: 100%;
-        margin-left: 2%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin: 0;
         padding: 0;
-        font-size: 5.46875vw;
+        font-size: 4.296875vw;
         font-family: 'Progress-Personal-Use';
-        line-height: 0;
+        line-height: 75%;
     }
 
     .voluntarios-text {
@@ -142,15 +139,13 @@
         padding: 0;
     }
 
-    .olamite,
     .passports {
         width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin: 0;
         padding: 0;
-        font-size: 8.52575vw;
+        font-size: 6.03865vw;
         font-family: 'Progress-Personal-Use';
-        line-height: 0;
+        line-height: 75%;
     }
 
     .voluntarios-text {

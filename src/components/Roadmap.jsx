@@ -26,15 +26,18 @@ const Roadmap = () => {
     };
 
     return (
-        <div id="teaser" className="roadmap">
-            <iframe
-                className="roadmap-video"
-                src={url}
-                frameborder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-                title="RoadMap NuWorld"
-            ></iframe>
+        <div id="teaser" className="teaser">
+            <h1 className="teaser-title">TEASER</h1>
+            <div className="roadmap">
+                <iframe
+                    className="roadmap-video"
+                    src={url}
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    title="RoadMap NuWorld"
+                ></iframe>
+            </div>
         </div>
     );
 };
