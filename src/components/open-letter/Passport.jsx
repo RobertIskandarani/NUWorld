@@ -32,6 +32,7 @@ const Passport = () => {
                                 src={tenThousand}
                                 alt="ten thousand"
                             /> */}
+                            <p className="ten-thousand">5,555</p>
                         </div>
                         <p className="passports">High quality NFTs at ZERO COST.</p>
                     </div>
