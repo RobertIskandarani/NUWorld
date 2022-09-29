@@ -263,7 +263,7 @@ header {
         justify-content: center;
     }
 
-    .opensea-button {
+    .buysoon-link {
         width: 100%;
         line-height: 175%;
         border-radius: 50px;
@@ -275,10 +275,5 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .opensea-button:hover {
-        color: #45bee7;
-        background-color: white;
     }
 }
