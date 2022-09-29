@@ -29,6 +29,7 @@ const Perfil = ({ img, name, role, description, display }) => {
                 useAnalyticsEventTracker(name);
                 toggleModal();
             }}
+            style={{ cursor: 'pointer' }}
         >
             {display === 'Mobile' ? null : (
                 <Modal

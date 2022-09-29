@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import Icon from '../generics/Icons-list';
 import ListButton from './List-button';
@@ -33,7 +34,7 @@ const Header = () => {
             <div className={width <= 768 ? 'mobile-top-' + activeMenu : 'desktop-top'}>
                 <div className="navbar">
                     <div className="logo-header">
-                        <a className="logo-link" href="/#">
+                        <a className="logo-link" href="/">
                             <img width="100%" height="auto" src={LogoImg} alt="Logo" />
                         </a>
                     </div>
@@ -63,14 +64,14 @@ const Header = () => {
 
                     <div className={activeMenu ? 'icons-buttons-active' : 'icons-buttons'}>
                         <div className="buysoon">
-                            <a
-                                href="https://discord.gg/E4jSG2t6wF"
-                                className="opensea-button"
+                            <Link
+                                to={'minting-page'}
+                                className="buysoon-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                FREE MINT
-                            </a>
+                                MINT
+                            </Link>
                         </div>
                         <div className="icons-list-header">
                             {header.map(i => {

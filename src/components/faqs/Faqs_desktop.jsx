@@ -25,7 +25,11 @@ const FaqsDesktop = () => {
                     alt="FaqsNU"
                 />
                 <div className="faqs-banner">
-                    <div className="faqs-character" onClick={() => setFor('newbies')}>
+                    <div
+                        className="faqs-character"
+                        onClick={() => setFor('newbies')}
+                        style={{ cursor: 'pointer' }}
+                    >
                         <div className={'faqs-professor-principal-' + faqs_for}>
                             <p className={'faqs-title-professor-' + faqs_for}>FOR NEWBIES</p>
                             <img
@@ -41,7 +45,11 @@ const FaqsDesktop = () => {
                         </div>
                         <div className={'rectangle-professor-' + faqs_for}></div>
                     </div>
-                    <div className="faqs-character" onClick={() => setFor('pros')}>
+                    <div
+                        className="faqs-character"
+                        onClick={() => setFor('pros')}
+                        style={{ cursor: 'pointer' }}
+                    >
                         <div className={'faqs-nekevah-principal-' + faqs_for}>
                             <p className={'faqs-title-nekevah-' + faqs_for}>FOR PROS</p>
                             <img

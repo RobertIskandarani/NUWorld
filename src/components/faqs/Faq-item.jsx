@@ -16,14 +16,20 @@ const FaqItem = ({ title, content }) => {
             <AccordionItemState>
                 {({ expanded }) =>
                     expanded ? (
-                        <AccordionItemHeading className={'accordion-item-heading-expanded'}>
+                        <AccordionItemHeading
+                            className={'accordion-item-heading-expanded'}
+                            style={{ cursor: 'pointer' }}
+                        >
                             <AccordionItemButton className={'accordion-item-button'}>
                                 <p> {title} </p>
                                 <FaMinus style={{ color: 'white' }} />
                             </AccordionItemButton>
                         </AccordionItemHeading>
                     ) : (
-                        <AccordionItemHeading className={'accordion-item-heading'}>
+                        <AccordionItemHeading
+                            className={'accordion-item-heading'}
+                            style={{ cursor: 'pointer' }}
+                        >
                             <AccordionItemButton className={'accordion-item-button'}>
                                 <p> {title} </p>
                                 <FaPlus style={{ color: 'white' }} />
