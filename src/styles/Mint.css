@@ -1,266 +1,233 @@
 .mint-container {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: url('./../assets/header_bg.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.minus {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(35, 35, 35);
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.total {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(35, 35, 35);
-    background-color: white;
-}
-
-.plus {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(35, 35, 35);
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./../assets/header_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 769px) {
-    .mint-title {
-        height: 15vh;
-        color: white;
-        font-family: 'Progress-Personal-Use';
-        font-size: 4.6875vw;
-        line-height: 0;
-        padding: 0;
-        margin: 0;
-        font-weight: lighter;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .mint-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    .mint-box {
-        width: 60%;
-        height: 55vh;
-        background-color: rgba(50, 50, 50, 1);
-        border: 1px solid rgb(112, 112, 112);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .mint-title {
+    height: 15vh;
+    color: white;
+    font-family: "Progress-Personal-Use";
+    font-size: 4.6875vw;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mint-box-title {
-        color: white;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        font-size: 2.5vw;
-        margin: 2%;
-    }
+  .connect-wallet {
+    position: absolute;
+    top: 4.5vh;
+    right: 1vw;
+  }
 
-    .mint-box-sub {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border-bottom: 1px solid rgb(112, 112, 112);
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 1.25vw;
-    }
+  .mint-box {
+    width: 60%;
+    height: 55vh;
+    background-color: rgba(50, 50, 50, 1);
+    border: 1px solid rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mint-select {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid rgb(112, 112, 112);
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 1.25vw;
-    }
+  .mint-box-title {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin: 2%;
+  }
 
-    .counter {
-        width: 40%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+  .mint-box-sub {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.25vw;
+  }
 
-    .mint-bold {
-        font-weight: bold;
-        font-size: 1.40625vw;
-    }
+  .mint-select {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.25vw;
+  }
 
-    .mint-button {
-        width: 22%;
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 1.5625vw;
-        font-weight: bold;
-        margin-top: 4%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        border-radius: 50px;
-        background-color: rgba(69, 190, 231, 1);
-    }
+  .counter {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mint-button:hover {
-        color: rgba(69, 190, 231, 1);
-        background-color: white;
-    }
+  .mint-bold {
+    font-weight: bold;
+    font-size: 1.40625vw;
+  }
 
-    .mint-corner {
-        width: 96%;
-        margin-top: 1%;
-        margin-bottom: 1.5%;
-        text-align: end;
-        color: rgba(102, 102, 102, 1);
-        font-family: 'Montserrat';
-        font-size: 1.09375vw;
-    }
+  .mint-button {
+    width: 22%;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.5625vw;
+    font-weight: bold;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 50px;
+    background-color: rgba(69, 190, 231, 1);
+  }
 
-    .mint {
-        width: 100%;
-        height: 40vh;
-        background-image: url('./../assets/mint.png');
-        background-size: cover;
-    }
+  .mint-button:hover {
+    color: rgba(69, 190, 231, 1);
+    background-color: white;
+  }
+
+  .mint {
+    width: 100%;
+    height: 40vh;
+    background-image: url("./../assets/mint.png");
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .mint-title {
-        color: white;
-        font-family: 'Progress-Personal-Use';
-        font-size: 8.52575vw;
-        margin: 0;
-        padding: 0;
-        font-weight: lighter;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .mint-title {
+    color: white;
+    font-family: "Progress-Personal-Use";
+    font-size: 8.52575vw;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .mint-box {
-        width: 90%;
-        height: 65vh;
-        background-color: rgba(50, 50, 50, 1);
-        border: 1px solid rgb(112, 112, 112);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+  .mint-box {
+    width: 90%;
+    height: 45vh;
+    background-color: rgba(50, 50, 50, 1);
+    border: 1px solid rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
-    .mint-box-title {
-        color: white;
-        font-family: 'Montserrat';
-        font-weight: bold;
-        font-size: 5.03865vw;
-        margin: 4%;
-    }
+  .mint-box-title {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 5.03865vw;
+    margin: 4%;
+  }
 
-    .mint-box-sub {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border-bottom: 1px solid rgb(112, 112, 112);
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 3.73001vw;
-    }
+  .connect-wallet {
+    position: absolute;
+    top: 15vh;
+  }
 
-    .mint-select {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid rgb(112, 112, 112);
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 3.73001vw;
-    }
+  .mint-box-sub {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 3.73001vw;
+  }
 
-    .counter {
-        width: 60%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+  .mint-select {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 3.73001vw;
+  }
 
-    .mint-bold {
-        font-weight: bold;
-        font-size: 3.73001vw;
-    }
+  .counter {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mint-button {
-        width: 45%;
-        color: white;
-        font-family: 'Montserrat';
-        font-size: 4.79575vw;
-        font-weight: bold;
-        margin-top: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        border-radius: 50px;
-        background-color: rgba(69, 190, 231, 1);
-    }
+  .mint-bold {
+    font-weight: bold;
+    font-size: 3.73001vw;
+  }
 
-    .mint-corner {
-        width: 96%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-        text-align: center;
-        color: rgba(102, 102, 102, 1);
-        font-family: 'Montserrat';
-        font-size: 3.19715vw;
-    }
+  .mint-button {
+    width: 45%;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 4.79575vw;
+    font-weight: bold;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 50px;
+    background-color: rgba(69, 190, 231, 1);
+  }
 
-    .mint {
-        width: 100%;
-        height: 20vh;
-        background-image: url('./../assets/mint.png');
-        background-size: auto 100%;
-        background-position: center;
-    }
+  .mint {
+    width: 100%;
+    height: 20vh;
+    background-image: url("./../assets/mint.png");
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
