@@ -50,8 +50,12 @@ function Mint() {
     const mint = async () => {
         const quantity = 3; // how many unique NFTs you want to claim
 
-        const tx = await contract.claimTo(address, quantity);
-        console.log('tx:', tx);
+        try {
+            const tx = await contract.claimTo(address, quantity);
+            console.log('tx:', tx);
+        } catch (e) {
+            console.log(e);
+        }
     };
 
     const updateDimensions = () => {
