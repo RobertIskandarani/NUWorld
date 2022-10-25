@@ -6,7 +6,7 @@ import Logo from './generics/Logo';
 
 import IconJson from '../data/icons.json';
 
-import useAnalyticsEventTracker from '../ga';
+import analyticsEventTracker from '../ga';
 
 import './../styles/Footer.css';
 
@@ -22,7 +22,7 @@ const Footer = () => {
                     <Logo />
                 </div>
                 <div className="icons-list-footer">
-                    {footer.map(i => {
+                    {footer.map((i) => {
                         return (
                             <a
                                 key={i.id}
@@ -30,7 +30,7 @@ const Footer = () => {
                                 href={i.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={() => useAnalyticsEventTracker(i.icon)}
+                                onClick={() => analyticsEventTracker(i.icon)}
                             >
                                 <Icon icon={i.icon} />
                             </a>

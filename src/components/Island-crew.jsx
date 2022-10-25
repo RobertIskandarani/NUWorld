@@ -1,6 +1,6 @@
 import React from 'react';
 
-import useAnalyticsEventTracker from '../ga';
+import analyticsEventTracker from '../ga';
 
 import './../styles/Island-crew.css';
 
@@ -10,7 +10,7 @@ const IslandCrew = () => {
             <div className="join-discord">
                 <a
                     href="https://discord.gg/E4jSG2t6wF"
-                    onClick={() => useAnalyticsEventTracker('Discord')}
+                    onClick={() => analyticsEventTracker('Discord')}
                     className="discord-button"
                     target="_blank"
                     rel="noopener noreferrer"

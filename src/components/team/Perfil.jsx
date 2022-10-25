@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoIosCloseCircleOutline } from 'react-icons/io';
 import Modal from 'react-modal';
-import useAnalyticsEventTracker from '../../ga';
+import analyticsEventTracker from '../../ga';
 
 const Perfil = ({ img, name, role, description, display }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ const Perfil = ({ img, name, role, description, display }) => {
         <li
             className="person"
             onClick={() => {
-                useAnalyticsEventTracker(name);
+                analyticsEventTracker(name);
                 toggleModal();
             }}
             style={{ cursor: 'pointer' }}

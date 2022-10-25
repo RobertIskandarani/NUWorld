@@ -5,7 +5,7 @@ import Nekevah from './../../assets/Nekevha con Triangulo Optimizada.png';
 
 import IconJson from '../../data/icons.json';
 
-import useAnalyticsEventTracker from '../../ga';
+import analyticsEventTracker from '../../ga';
 
 import './../../styles/open-letter/Principal-structre.css';
 
@@ -30,7 +30,7 @@ const PrincipalStructre = () => {
                                 href={i.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                onClick={() => useAnalyticsEventTracker(i.icon)}
+                                onClick={() => analyticsEventTracker(i.icon)}
                             >
                                 <Icon key={i.id} icon={i.icon} />
                             </a>

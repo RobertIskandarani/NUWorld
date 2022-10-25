@@ -11,7 +11,8 @@ function Mint() {
     const [width, setWindowWidth] = useState(0);
     const address = useAddress();
     const [loading, setLoading] = useState(false);
-    const { contract } = useContract('0xCCfa9C2d0d139870aa23963b74F650213C276Acf');
+    const { contract } = useContract('0x9E5128b9dAdEebD22295d65C164E5f404b3b2661');
+    const [mintClicked, setMintClicked] = useState(false);
 
     useEffect(() => {
         updateDimensions();
@@ -49,12 +50,16 @@ function Mint() {
 
     const mint = async () => {
         const quantity = 3; // how many unique NFTs you want to claim
+        let tx;
 
         try {
-            const tx = await contract.claimTo(address, quantity);
-            console.log('tx:', tx);
-        } catch (e) {
-            console.log(e);
+            tx = await contract.claimTo(address, quantity);
+        } catch (err) {
+            alert('Operation Failed');
+        }
+        setMintClicked(false);
+        if (tx) {
+            alert('Successful Operation');
         }
     };
 
@@ -101,8 +106,20 @@ function Mint() {
                     <SubItem title={'MINTED NFT'} description={`${claimed} / ${totalSupply}`} />
                 )}
                 <SubItem title={'Total'} description={'3'} />
-                <div className="mint-button" onClick={() => mint()} style={{ cursor: 'pointer' }}>
+                <div
+                    className="mint-button"
+                    onClick={() => {
+                        mint();
+                        setMintClicked(true);
+                    }}
+                    style={{ cursor: 'pointer' }}
+                >
                     MINT
+                </div>
+                <div className="waiting-message">
+                    {mintClicked
+                        ? 'Wait until the operation is confirmed, maybe it will take a few minutes'
+                        : ''}
                 </div>
             </div>
             <div className="mint"></div>

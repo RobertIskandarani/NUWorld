@@ -9,7 +9,7 @@ import LogoImg from './../../assets/Logo.png';
 import IconJson from '../../data/icons.json';
 import sectionButtons from '../../data/sections.json';
 
-import useAnalyticsEventTracker from '../../ga';
+import analyticsEventTracker from '../../ga';
 
 import '../../styles/header/Header.css';
 
@@ -82,7 +82,7 @@ const Header = () => {
                                         href={i.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        onClick={() => useAnalyticsEventTracker(i.icon)}
+                                        onClick={() => analyticsEventTracker(i.icon)}
                                     >
                                         <Icon icon={i.icon} />
                                     </a>
