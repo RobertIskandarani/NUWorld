@@ -11,7 +11,7 @@ function Mint() {
     const [width, setWindowWidth] = useState(0);
     const address = useAddress();
     const [loading, setLoading] = useState(false);
-    const { contract } = useContract('0x9E5128b9dAdEebD22295d65C164E5f404b3b2661');
+    const { contract } = useContract('0x0f4d7C1a74d7211DFa8f513f5303e6ef01BC9649');
     const [mintClicked, setMintClicked] = useState(false);
 
     useEffect(() => {
@@ -25,8 +25,7 @@ function Mint() {
         getTotalSupply();
         setInterval(() => {
             getClaimed();
-            getTotalSupply();
-        }, 5000);
+        }, 10000);
     });
 
     const getClaimed = async () => {
@@ -118,7 +117,7 @@ function Mint() {
                 </div>
                 <div className="waiting-message">
                     {mintClicked
-                        ? 'Wait until the operation is confirmed, maybe it will take a few minutes'
+                        ? 'Wait until the operation is confirmed, it might take a few minutes'
                         : ''}
                 </div>
             </div>

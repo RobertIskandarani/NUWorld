@@ -54,15 +54,6 @@ const team = [
         social: [],
     },
     {
-        id: 6,
-        img: require('../assets/Team/7- Oli.jpg'),
-        name: 'Oliver Krause',
-        role: 'Dictator of taste',
-        description:
-            "Sagittarius, queer, fashionista, failed model but fruitful creative director, ideator & experience designer with 7+ years in the so-called 'marketing' field working along fat-ass companies and some tiny bees. A lady and a boss-ass-bitch, both in the same fridge.",
-        social: [],
-    },
-    {
         id: 7,
         img: require('../assets/Team/8- Mati.jpg'),
         name: 'Matias Goldberg',
