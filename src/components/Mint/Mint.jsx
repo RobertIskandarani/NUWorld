@@ -48,7 +48,7 @@ function Mint() {
     };
 
     const mint = async () => {
-        const quantity = 3; // how many unique NFTs you want to claim
+        const quantity = 2;
         let tx;
 
         try {
@@ -104,7 +104,7 @@ function Mint() {
                 ) : (
                     <SubItem title={'MINTED NFT'} description={`${claimed} / ${totalSupply}`} />
                 )}
-                <SubItem title={'Total'} description={'3'} />
+                <SubItem title={'Total'} description={'2'} />
                 <div
                     className="mint-button"
                     onClick={() => {
